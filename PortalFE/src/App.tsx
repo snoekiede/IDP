@@ -1,5 +1,5 @@
 import './App.css'
-import { CardBody, CardTitle, Col, Container, Row, Card, CardSubtitle, CardHeader } from 'react-bootstrap'
+import { CardBody, Col, Container, Row, Card,  CardHeader } from 'react-bootstrap'
 
 function App() {
 
