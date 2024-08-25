@@ -1,0 +1,17 @@
+
+services:
+  django:
+    build: ./IDP
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./django_project:/app
+
+  react:
+    build: ./PortalFE
+    ports:
+      - "3000:80"
+    depends_on:
+      - django
+
+
